@@ -1,4 +1,37 @@
-.county-card { margin: 1rem; padding: 1rem; border-radius: 10px; }
-.alert-list { list-style-type: none; padding-left: 0; }
-.threat-badge { margin: 2px; }
-.loading { display: none; } /* Add loading indicator styles */
+.county-card { 
+    margin: 1rem; 
+    padding: 1rem; 
+    border-radius: 10px; 
+    background-color: #f8f9fa;
+}
+
+.alert-list { 
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+.threat-badge { 
+    margin: 2px; 
+    font-size: 0.9rem;
+}
+
+#loading {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.loaded #loading {
+    display: none;
+}
+
+.error-alert {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: 0.25rem;
+}

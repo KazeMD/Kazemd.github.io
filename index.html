@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mid-Atlantic Weather Monitor</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
 </head>
 <body class="container">
-    <!-- Content from previous answer -->
+    <div id="loading" class="text-center my-4">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p>Loading weather data...</p>
+    </div>
+
+    <h1 class="my-4">Mid-Atlantic Weather Monitor</h1>
+    
+    <div id="county-tabs" class="nav nav-tabs">
+        <button class="nav-link active" data-county="anne-arundel">Anne Arundel, MD</button>
+        <button class="nav-link" data-county="wicomico">Wicomico, MD</button>
+        <button class="nav-link" data-county="sussex">Sussex, DE</button>
+    </div>
+
+    <div id="content" class="my-4"></div>
+
     <script src="scripts/app.js"></script>
 </body>
 </html>
