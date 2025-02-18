@@ -1,0 +1,19 @@
+{
+    "counties": {
+        "anne-arundel": {
+            "name": "Anne Arundel County, MD",
+            "zone": "MDZ014",
+            "coords": { "lat": 39.0027, "lng": -76.6575 }
+        },
+        "wicomico": {
+            "name": "Wicomico County, MD",
+            "zone": "MDZ023",
+            "coords": { "lat": 38.3753, "lng": -75.6147 }
+        },
+        "sussex": {
+            "name": "Sussex County, DE",
+            "zone": "DEZ003",
+            "coords": { "lat": 38.6783, "lng": -75.3369 }
+        }
+    }
+}

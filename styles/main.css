@@ -1,0 +1,4 @@
+.county-card { margin: 1rem; padding: 1rem; border-radius: 10px; }
+.alert-list { list-style-type: none; padding-left: 0; }
+.threat-badge { margin: 2px; }
+.loading { display: none; } /* Add loading indicator styles */
